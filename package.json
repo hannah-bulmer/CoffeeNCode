@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hannah-bulmer.github.io/me",
+  "homepage": "https://hannah-bulmer.github.io/CoffeeNCode",
   "dependencies": {
     "ajv": "^6.8.1",
     "bootstrap": "^4.3.1",
