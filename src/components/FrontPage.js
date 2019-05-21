@@ -27,7 +27,7 @@ class FrontPage extends React.Component {
   render() {
     return (
       <div className="page">
-        <img className="backgroundImage image" src={Background} />
+        <img className="backgroundImage bottom image" src={Background} />
         <header className="header sticky">
           <button className="App headerTabs" onClick={this.props.scrollToAbout}>About</button>
           <button className="App headerTabs" onClick={this.props.scrollToProjects}>Projects</button>

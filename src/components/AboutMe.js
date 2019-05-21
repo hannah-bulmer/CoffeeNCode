@@ -29,10 +29,11 @@ class AboutMe extends React.Component {
             <div className="leftCol about" style={{"background-color": "white"}}>
             <h1>About me</h1>
               {this.renderAboutMe()}
+              Source: <a href="https://en.wikipedia.org/wiki/Elon_Musk">Wikipedia</a>
             </div>
-            <div className="rightCol background">
+            <div className="rightCol">
               <h3>Pic of Me</h3>
-              <img src={Picture} style={{height: "80vh"}} />
+              <img src={Picture} style={{width: "80%", "border-radius": "5px", "padding-bottom": "30px"}} />
             </div>
       </div>
     )

@@ -4,6 +4,7 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 import FrontPage from './components/FrontPage';
 import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
 
 class App extends Component {
   constructor (props) {
@@ -17,8 +18,10 @@ class App extends Component {
 
   render() {
   const links = [
-    { link: 'https://www.linkedin.com/in/hannah-bulmer-099030154/', image: require('./static/linkedin.png')},
-    { link: 'https://github.com/hannah-bulmer', image: require('./static/github.svg')}
+    { link: 'https://www.linkedin.com/', image: require('./static/linkedin.png')},
+    { link: 'https://github.com/UWCoffeeNCode', image: require('./static/github.svg')},
+    { link: 'https://twitter.com/elonmusk', image: require('./static/twitter.png')},
+    { link: 'https://www.facebook.com', image: require('./static/facebook.jpg')}
   ]
   
     return (
@@ -34,7 +37,7 @@ class App extends Component {
             <AboutMe />
           </div>
           <div className="page subpage" ref={this.myProjects}>
-            <h1>Projects</h1>
+            <Projects />
           </div>
           </div>
         </div>
